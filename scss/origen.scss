@@ -172,6 +172,8 @@ body {
     padding-bottom: 20px;
 }
 h5{
+    text-decoration: none;
+    font-size: 20px;
     color: $color-texto
 }
 
@@ -242,12 +244,11 @@ h5{
 
 
 
-
 /*seccion html zapatillas*/
 .contenedor4{
     text-align: center;
     .contenedor4__imagen-1{
-        width:800px;
+        width:100%;
     }
 }
 .calzado__box{

@@ -124,6 +124,8 @@ body {
   padding-bottom: 20px; }
 
 h5 {
+  text-decoration: none;
+  font-size: 20px;
   color: black; }
 
 /*index html seccion productos mujer*/
@@ -186,7 +188,7 @@ h5 {
 .contenedor4 {
   text-align: center; }
   .contenedor4 .contenedor4__imagen-1 {
-    width: 800px; }
+    width: 100%; }
 
 .calzado__box {
   margin-left: 400px;
