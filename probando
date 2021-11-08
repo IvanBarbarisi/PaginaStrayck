@@ -1,0 +1,27 @@
+    <div class="contenedor1">
+        <div class="imagen-2">
+            <img src="./img/riñonera-sportswear-heritage-EEAkqr.jpg" alt="imagen-productos2">
+        </div>
+        <div class="imagen-2">
+            <img src="./img/GA025204010.jpg" alt="imagen-productos9">
+        </div>
+        <div class="imagen-2">
+            <img src="./img/GA025345501.jpg" alt="imagen-productos10">
+        </div>
+    </div>
+
+
+    imagen con texto abajo 
+    <div class="contenedor2">
+        <div class="imagen-cultura">
+            <img src="./img/más-allá-del-estilo-momo-hassan-odukale-redefine-la-moda-nigeriana.jpg" alt="imagen-productos2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cum fuga laboriosam placeat laborum asperiores delectus rem aperiam magni, dicta explicabo qui optio suscipit cupiditate, nemo quam reprehenderit id? Soluta!</p>
+        </div>
+        <div class="imagen-cultura">
+            <img src="./img/2más-allá-del-estilo-michelle-li-destaca-con-estilo.jpg" alt="imagen-productos2">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita debitis, perferendis harum fuga dolore beatae autem! Qui perspiciatis iste, fugit corporis doloribus nam omnis quos cupiditate laborum aliquam optio placeat!</p>
+        </div>
+        <div class="imagen-cultura">
+            <img src="./img/conoce-a-las-chicas-del-equipo-de-lacrosse-de-eyekonz-de-filadelfia.jpg" alt="imagen-productos2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis consequatur et odit natus delectus recusandae! Optio itaque voluptates minima animi earum, fugiat, sed necessitatibus fugit ab cum quisquam, unde voluptatum!</p>
+        </div>

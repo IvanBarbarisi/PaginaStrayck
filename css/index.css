@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/*Variables*/
+/*Extend*/
+.navebar ul, .cineasta__box, .productoswo-box, .productoswo-box2, .calzado__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/*Mapas*/
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffff; }
+
+/*index html seccion principal*/
+.navebar {
+  background-color: black;
+  padding-top: 12px;
+  padding-bottom: 1px; }
+  .navebar ul li {
+    list-style-type: none; }
+  .navebar .navebar__menu a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-left: 10px; }
+    .navebar .navebar__menu a .navebar__menu a:hover {
+      color: red;
+      transition: 1.5s; }
+
+.carrusel1 {
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 20px; }
+
+.cineasta__box {
+  margin-left: 400px;
+  margin-right: 400px; }
+  .cineasta__box img {
+    width: 650px;
+    margin-top: 20px; }
+  .cineasta__box p {
+    font-size: 20px; }
+    .cineasta__box p span {
+      font-weight: bold;
+      font-size: 25px; }
+
+.contenedor__img {
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+  padding: 40px;
+  margin-right: 550px;
+  margin-left: 550px;
+  margin-top: 25px; }
+  .contenedor__img .contenedor__img--nike-shoes img {
+    width: 700px;
+    border: 2px solid #f80000; }
+  .contenedor__img .contenedor__img--nike-shoes button {
+    margin-top: 20px;
+    background-color: black;
+    border: 2px solid #f80000;
+    border-radius: 4px; }
+    .contenedor__img .contenedor__img--nike-shoes button a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 25px; }
+  .contenedor__img .contenedor__img--nike-shoes button:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transition: 1s; }
+  .contenedor__img .contenedor__img--nike-futbol img {
+    border: 2px solid #f80000;
+    width: 700px; }
+  .contenedor__img .contenedor__img--nike-futbol button {
+    margin-top: 20px;
+    background-color: black;
+    border: 2px solid #f80000;
+    border-radius: 4px; }
+    .contenedor__img .contenedor__img--nike-futbol button a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 25px; }
+  .contenedor__img .contenedor__img--nike-futbol button:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transition: 1s; }
+  .contenedor__img .contenedor__img--nike-cr7 button {
+    margin-top: 20px;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 4px; }
+    .contenedor__img .contenedor__img--nike-cr7 button a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 25px; }
+  .contenedor__img .contenedor__img--nike-cr7 button:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transition: 1s; }
+  .contenedor__img .contenedor__img--nike-cr7 iframe {
+    border: 2px solid #f80000; }
+  .contenedor__img h2 {
+    color: white;
+    margin-bottom: 20px; }
+
+/*index html seccion productos hombre*/
+.container {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 1px solid  black;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+h5 {
+  color: black; }
+
+/*index html seccion productos mujer*/
+.tituloproductos {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; }
+
+.productoswo-box {
+  margin-left: 400px;
+  margin-right: 400px; }
+
+.card {
+  margin-top: 40px;
+  margin-left: 20px; }
+
+.imagen-2 img {
+  width: 400px;
+  height: 520px;
+  margin-top: 20px;
+  display: block; }
+
+.btn-compra {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px; }
+
+.btn-compra a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; }
+
+.btn-compra:hover {
+  transform: scale(1.05);
+  transition: 0.5s; }
+
+.contenedor2 {
+  display: grid;
+  grid-template-columns: auto auto auto; }
+
+.video-1 iframe {
+  width: 200px; }
+
+.titulo-header {
+  color: black;
+  text-align: center; }
+
+.imagen-cultura img {
+  text-align: center;
+  width: 560px;
+  height: 580px;
+  padding-left: 20px; }
+
+.imagen-cultura {
+  text-align: center; }
+
+/*seccion html zapatillas*/
+.contenedor4 {
+  text-align: center; }
+  .contenedor4 .contenedor4__imagen-1 {
+    width: 800px; }
+
+.calzado__box {
+  margin-left: 400px;
+  margin-right: 400px; }
+  .calzado__box img {
+    width: 1200px;
+    margin-top: 20px; }
+  .calzado__box p {
+    font-size: 20px; }
+    .calzado__box p span {
+      font-weight: bold;
+      font-size: 25px; }
+
+/*contacto html formulario*/
+.contacto {
+  background-image: url(../img/2más-allá-del-estilo-michelle-li-destaca-con-estilo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; }
+  .contacto .contacto__titulo {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 70px; }
+    .contacto .contacto__titulo a {
+      text-decoration: none;
+      color: white;
+      font-size: 60px;
+      font-weight: bold; }
+  .contacto .contacto__form {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: center; }
+    .contacto .contacto__form .contacto__form--box legend {
+      font-weight: bold;
+      font-size: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      padding-top: 20px; }
+    .contacto .contacto__form .contacto__form--box input {
+      border-radius: 20px;
+      width: 70%;
+      padding: 15px;
+      margin: 20px;
+      text-align: center;
+      font-size: 15px; }
+    .contacto .contacto__form .contacto__form--box input:focus {
+      background-color: #747474;
+      transition: 1s;
+      color: white; }
+    .contacto .contacto__form .contacto__form--box textarea {
+      border-radius: 20px;
+      width: 70%;
+      padding: 15px;
+      margin: 20px;
+      text-align: center;
+      font-size: 15px; }
+    .contacto .contacto__form .contacto__form--box textarea:focus {
+      background-color: #747474;
+      transition: 1s;
+      color: white; }
+    .contacto .contacto__form .contacto__form--box div {
+      text-align: center; }
+    .contacto .contacto__form .contacto__form--box button {
+      margin-bottom: 20px;
+      border: 1px solid white;
+      background-color: black;
+      padding: 15px;
+      border-radius: 15px; }
+      .contacto .contacto__form .contacto__form--box button a {
+        text-decoration: none;
+        color: white; }
+    .contacto .contacto__form .contacto__form--box button:hover {
+      transform: scale(1.05);
+      transition: 0.5s; }
+
+/*ubicaion html */
+.gridco {
+  display: grid;
+  grid-template-areas: 'header header header header header header' 'menu main main main main main ';
+  grid-gap: 5px;
+  background-color: black;
+  padding: 5px; }
+  .gridco .gridco__item1 {
+    grid-area: header; }
+  .gridco .gridco__item2 {
+    grid-area: menu; }
+    .gridco .gridco__item2 p {
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 12px; }
+    .gridco .gridco__item2 span {
+      font-weight: bold; }
+  .gridco .gridco__item3 {
+    grid-area: main; }
+  .gridco div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px; }
+
+/*FOOTER*/
+.footer__box {
+  margin-top: 20px;
+  background-color: #252525;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center; }
+  .footer__box .footer__box--contenedor h4 {
+    margin-top: 20px;
+    font-weight: bold; }
+  .footer__box .footer__box--contenedor a {
+    text-decoration: none;
+    color: #777777; }
+  .footer__box .footer__box--contenedor .footer__box__contenedor--telefono {
+    color: #777777; }
+    .footer__box .footer__box--contenedor .footer__box__contenedor--telefono span {
+      font-weight: bold;
+      color: white; }
+
+@media screen and (min-width: 800px) and (max-width: 1500px) {
+  .navbar {
+    font-size: 25px; }
+  .contenedor-img {
+    background-color: black;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px; }
+  .nike-futbol img {
+    width: 100%; }
+  .nike-cr7 iframe {
+    width: 100%; }
+  .nike-shoes img {
+    width: 100%; }
+  .productoswo-box {
+    margin-left: 120px;
+    margin-right: 120px; }
+  .footer-contenedor h4 {
+    font-size: 15px; }
+  .footer-contenedor p {
+    font-size: 12px; } }
+
+@media screen and (min-width: 5px) and (max-width: 799px) {
+  .navebar-menu a {
+    font-size: 10px; }
+  .contenedor-img {
+    background-color: black;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px; }
+  .nike-futbol img {
+    width: 100%; }
+  .nike-cr7 iframe {
+    width: 100%; }
+  .nike-shoes img {
+    width: 100%; }
+  .productoswo-box {
+    margin-left: 2px;
+    margin-right: 2px; }
+  .footer-contenedor h4 {
+    font-size: 12px; }
+  .footer-contenedor p {
+    font-size: 10px; } }

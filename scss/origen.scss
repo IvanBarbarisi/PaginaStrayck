@@ -1,0 +1,483 @@
+/*Variables*/
+$color-principal: #ffff;
+$color-texto:  black;  
+
+
+/*Extend*/
+%flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*Mapas*/
+$colores-maps:(
+    color-background:  black
+);
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $color-principal
+}
+
+
+/*index html seccion principal*/
+.navebar{
+    background-color: map-get( $colores-maps, color-background );
+    padding-top: 12px;
+    padding-bottom: 1px;
+    ul{ 
+        @extend %flexbox;
+        li{
+            list-style-type: none;
+            }
+        }
+        .navebar__menu  a{
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: white;
+            padding-left: 10px;
+            .navebar__menu a:hover{
+                color: red;
+                transition: 1.5s;
+            }
+    }
+}
+
+.carrusel1{
+    margin-left: 350px;
+    margin-right:350px;
+    margin-top: 20px;
+}
+
+.cineasta__box{
+    @extend %flexbox;
+    margin-left: 400px;
+    margin-right: 400px;
+    img{
+        width: 650px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+    }
+}
+
+.contenedor__img{
+    text-align: center;
+    background-color: map-get( $colores-maps, color-background );
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 550px;
+    margin-left: 550px;
+    margin-top: 25px;
+    .contenedor__img--nike-shoes{
+        img{
+            width: 700px;
+            border: 2px solid rgb(248, 0, 0);
+        }
+        button{
+            margin-top: 20px;
+            background-color: map-get( $colores-maps, color-background );
+            border: 2px solid rgb(248, 0, 0);
+            border-radius: 4px;
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: bold;
+                padding: 25px;
+            }
+        }
+        button:hover{
+            background-color:red;
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+    .contenedor__img--nike-futbol{
+        img{
+            border: 2px solid rgb(248, 0, 0);
+            width: 700px;
+        }
+        button{
+            margin-top: 20px;
+            background-color: map-get( $colores-maps, color-background );
+            border: 2px solid rgb(248, 0, 0);
+            border-radius: 4px;
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: bold;
+                padding: 25px;
+            }
+        }
+        button:hover{
+            background-color: red;
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+    .contenedor__img--nike-cr7{
+        button{
+            margin-top: 20px;
+            background-color: map-get( $colores-maps, color-background );
+            border: 2px solid rgb(255, 0, 0);
+            border-radius: 4px;
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: bold;
+                padding: 25px;
+            }
+            
+        }
+        button:hover{
+            background-color: red;
+            transform: scale(1.1);
+            transition: 1s;
+        }
+        iframe{
+            border: 2px solid rgb(248, 0, 0);
+        }
+    }
+    h2{
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/*index html seccion productos hombre*/
+.container{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid  black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h5{
+    color: $color-texto
+}
+
+
+
+
+/*index html seccion productos mujer*/
+.tituloproductos{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.productoswo-box{
+    @extend %flexbox;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.productoswo-box2{
+    @extend %flexbox;
+}
+.card{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.imagen-2 img{
+    width: 400px;
+    height: 520px;
+    margin-top: 20px;
+    display: block;
+}
+.btn-compra{
+    background-color: map-get( $colores-maps, color-background );
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.btn-compra a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.btn-compra:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}            
+.contenedor2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.video-1 iframe{
+    width: 200px;
+}
+.titulo-header{
+    color: rgb(0, 0, 0); 
+    text-align: center;
+}
+.imagen-cultura img{
+    text-align: center;
+    width: 560px;
+    height: 580px;
+    padding-left: 20px;   
+}
+.imagen-cultura{
+    text-align: center;
+}
+
+
+
+
+
+/*seccion html zapatillas*/
+.contenedor4{
+    text-align: center;
+    .contenedor4__imagen-1{
+        width:800px;
+    }
+}
+.calzado__box{
+    @extend %flexbox;
+    margin-left: 400px;
+    margin-right: 400px;
+    img{
+        width: 1200px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+    }
+}
+
+
+
+
+/*contacto html formulario*/
+.contacto{
+    background-image: url(../img/2más-allá-del-estilo-michelle-li-destaca-con-estilo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    .contacto__titulo{
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 70px;
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 60px;
+            font-weight: bold;
+        }
+    }
+    .contacto__form{
+        background-color: map-get( $colores-maps, color-background );
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        color: white;
+        margin-left: 600px;
+        margin-right: 600px;
+        text-align: center;
+        .contacto__form--box{
+            legend{
+                font-weight: bold;
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;    
+                margin: 20px;
+                padding-top: 20px;
+            }
+            input{
+                border-radius: 20px;
+                width: 70%;
+                padding: 15px;
+                margin: 20px;
+                text-align: center;
+                font-size: 15px;
+            }
+            input:focus{
+                background-color: rgb(116, 116, 116);
+                transition: 1s;
+                color: white;
+            }
+            textarea{
+                border-radius: 20px;
+                width: 70%;
+                padding: 15px;
+                margin: 20px;
+                text-align: center;
+                font-size: 15px;
+            }
+            textarea:focus{
+                background-color: rgb(116, 116, 116);
+                transition: 1s;
+                color: white;
+            }
+            div{
+                text-align: center;
+            }
+            button{
+                margin-bottom: 20px;
+                border: 1px solid rgb(255, 255, 255);
+                background-color: map-get( $colores-maps, color-background );
+                padding: 15px;
+                border-radius: 15px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            button:hover{
+                transform: scale(1.05);
+                transition: 0.5s;
+            }            
+        }
+    }
+}
+
+
+
+
+/*ubicaion html */
+.gridco {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main main ';
+    grid-gap: 5px;
+    background-color: map-get( $colores-maps, color-background );
+    padding: 5px;
+    .gridco__item1 {
+        grid-area: header; 
+    }
+    .gridco__item2 {
+        grid-area: menu; 
+        p{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 12px;
+        }
+        span{
+            font-weight: bold;
+        }
+    }
+    .gridco__item3 { 
+        grid-area: main; 
+    }
+    div {
+        background-color: white;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+}
+
+
+
+
+/*FOOTER*/
+.footer__box{
+    margin-top: 20px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    .footer__box--contenedor{
+        h4{
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(119, 119, 119);
+        }
+        .footer__box__contenedor--telefono{
+            color: rgb(119, 119, 119);
+            span{
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1500px){
+    .navbar{
+        font-size: 25px;
+    }
+    .contenedor-img{
+        background-color: map-get( $colores-maps, color-background );
+        padding: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .nike-futbol img{
+        width:100%;
+    }
+    .nike-cr7 iframe{
+        width: 100%;
+    }
+    .nike-shoes img{
+        width:100%; 
+    }
+    .productoswo-box{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .footer-contenedor h4{
+        font-size: 15px;
+    }
+    .footer-contenedor p{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 5px) and (max-width: 799px) {
+    .navebar-menu a{
+        font-size: 10px;
+    }
+    .contenedor-img{
+        background-color: map-get( $colores-maps, color-background );
+        padding: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .nike-futbol img{
+        width:100%;
+    }
+    .nike-cr7 iframe{
+        width: 100%;
+    }
+    .nike-shoes img{
+        width:100%; 
+    }
+    .productoswo-box{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .footer-contenedor h4{
+        font-size: 12px;
+    }
+    .footer-contenedor p{
+        font-size: 10px;
+    }
+}
+
