@@ -38,6 +38,13 @@ body {
   margin-right: 350px;
   margin-top: 20px; }
 
+.titulo-inicio {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px; }
+
 .cineasta__box {
   margin-left: 400px;
   margin-right: 400px; }
