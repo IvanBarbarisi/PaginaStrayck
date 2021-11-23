@@ -85,42 +85,42 @@ body {
     background-color: red;
     transform: scale(1.1);
     transition: 1s; }
-  .contenedor__img .contenedor__img--nike-futbol img {
+  .contenedor__img .contenedor__img--nike-hombre img {
     border: 2px solid #f80000;
     width: 100%; }
-  .contenedor__img .contenedor__img--nike-futbol button {
+  .contenedor__img .contenedor__img--nike-hombre button {
     margin-top: 20px;
     background-color: black;
     border: 2px solid #f80000;
     border-radius: 4px; }
-    .contenedor__img .contenedor__img--nike-futbol button a {
+    .contenedor__img .contenedor__img--nike-hombre button a {
       text-decoration: none;
       color: white;
       font-size: 20px;
       font-weight: bold;
       padding: 25px; }
-  .contenedor__img .contenedor__img--nike-futbol button:hover {
+  .contenedor__img .contenedor__img--nike-hombre button:hover {
     background-color: red;
     transform: scale(1.1);
     transition: 1s; }
-  .contenedor__img .contenedor__img--nike-cr7 button {
+  .contenedor__img .contenedor__img--nike-mujer button {
     margin-top: 20px;
     background-color: black;
     border: 2px solid red;
     border-radius: 4px; }
-    .contenedor__img .contenedor__img--nike-cr7 button a {
+    .contenedor__img .contenedor__img--nike-mujer button a {
       text-decoration: none;
       color: white;
       font-size: 20px;
       font-weight: bold;
       padding: 25px; }
-  .contenedor__img .contenedor__img--nike-cr7 button:hover {
+  .contenedor__img .contenedor__img--nike-mujer button:hover {
     background-color: red;
     transform: scale(1.1);
     transition: 1s; }
-  .contenedor__img .contenedor__img--nike-cr7 iframe {
-    border: 2px solid #f80000;
-    width: 100%; }
+  .contenedor__img .contenedor__img--nike-mujer img {
+    width: 100%;
+    border: 2px solid #f80000; }
   .contenedor__img h2 {
     color: white;
     margin-bottom: 20px; }

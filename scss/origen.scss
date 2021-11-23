@@ -116,7 +116,7 @@ body {
             transition: 1s;
         }
     }
-    .contenedor__img--nike-futbol{
+    .contenedor__img--nike-hombre{
         img{
             border: 2px solid rgb(248, 0, 0);
             width: 100%;
@@ -140,7 +140,7 @@ body {
             transition: 1s;
         }
     }
-    .contenedor__img--nike-cr7{
+    .contenedor__img--nike-mujer{
         button{
             margin-top: 20px;
             background-color: map-get( $colores-maps, color-background );
@@ -160,9 +160,9 @@ body {
             transform: scale(1.1);
             transition: 1s;
         }
-        iframe{
-            border: 2px solid rgb(248, 0, 0);
+        img{
             width: 100%;
+            border: 2px solid rgb(248, 0, 0);
         }
     }
     h2{
