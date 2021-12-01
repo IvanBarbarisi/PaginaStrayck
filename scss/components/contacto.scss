@@ -1,0 +1,82 @@
+/*contacto html formulario*/
+.contacto{
+    background-image: url(../img/2más-allá-del-estilo-michelle-li-destaca-con-estilo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    .contacto__titulo{
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 70px;
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 60px;
+            font-weight: bold;
+        }
+    }
+    .contacto__form{
+        background-color: map-get( $colores-maps, color-background );
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        color: white;
+        margin-left: 600px;
+        margin-right: 600px;
+        text-align: center;
+        .contacto__form--box{
+            legend{
+                font-weight: bold;
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;    
+                margin: 20px;
+                padding-top: 20px;
+            }
+            input{
+                border-radius: 20px;
+                width: 70%;
+                padding: 15px;
+                margin: 20px;
+                text-align: center;
+                font-size: 15px;
+            }
+            input:focus{
+                background-color: rgb(116, 116, 116);
+                transition: 1s;
+                color: white;
+            }
+            textarea{
+                border-radius: 20px;
+                width: 70%;
+                padding: 15px;
+                margin: 20px;
+                text-align: center;
+                font-size: 15px;
+            }
+            textarea:focus{
+                background-color: rgb(116, 116, 116);
+                transition: 1s;
+                color: white;
+            }
+            div{
+                text-align: center;
+            }
+            button{
+                margin-bottom: 20px;
+                border: 1px solid rgb(255, 255, 255);
+                background-color: map-get( $colores-maps, color-background );
+                padding: 15px;
+                border-radius: 15px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            button:hover{
+                transform: scale(1.05);
+                transition: 0.5s;
+            }            
+        }
+    }
+}

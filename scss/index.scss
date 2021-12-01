@@ -1,0 +1,143 @@
+
+/*index html seccion principal*/
+.navebar{
+    background-color: map-get( $colores-maps, color-background );
+    padding-top: 12px;
+    padding-bottom: 1px;
+    ul{ 
+        @extend %flexbox;
+        margin-bottom: 17px;
+        li{
+            list-style-type: none;
+            }
+        }
+        .navebar__menu  a{
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: white;
+            padding-left: 10px;
+            .navebar__menu a:hover{
+                color: red;
+                transition: 1.5s;
+            }
+    }
+}
+
+.carrusel1{
+    margin-left: 350px;
+    margin-right:350px;
+    margin-top: 20px;
+}
+
+.titulo-inicio{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+
+}
+.cineasta__box{
+    @extend %flexbox;
+    margin-left: 400px;
+    margin-right: 400px;
+    img{
+        width: 650px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+    }
+}
+
+.contenedor__img{
+    text-align: center;
+    background-color: map-get( $colores-maps, color-background );
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 550px;
+    margin-left: 550px;
+    margin-top: 25px;
+    .contenedor__img--nike-shoes{
+        img{
+            width: 100%;
+            border: 2px solid rgb(248, 0, 0);
+        }
+        button{
+            margin-top: 20px;
+            background-color: map-get( $colores-maps, color-background );
+            border: 2px solid rgb(248, 0, 0);
+            border-radius: 4px;
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: bold;
+                padding: 25px;
+            }
+        }
+        button:hover{
+            background-color:red;
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+    .contenedor__img--nike-hombre{
+        img{
+            border: 2px solid rgb(248, 0, 0);
+            width: 100%;
+        }
+        button{
+            margin-top: 20px;
+            background-color: map-get( $colores-maps, color-background );
+            border: 2px solid rgb(248, 0, 0);
+            border-radius: 4px;
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: bold;
+                padding: 25px;
+            }
+        }
+        button:hover{
+            background-color: red;
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+    .contenedor__img--nike-mujer{
+        button{
+            margin-top: 20px;
+            background-color: map-get( $colores-maps, color-background );
+            border: 2px solid rgb(255, 0, 0);
+            border-radius: 4px;
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: bold;
+                padding: 25px;
+            }
+            
+        }
+        button:hover{
+            background-color: red;
+            transform: scale(1.1);
+            transition: 1s;
+        }
+        img{
+            width: 100%;
+            border: 2px solid rgb(248, 0, 0);
+        }
+    }
+    h2{
+        color: white;
+        margin-bottom: 20px;
+    }
+}

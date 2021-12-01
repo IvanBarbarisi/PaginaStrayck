@@ -1,0 +1,23 @@
+/*seccion html zapatillas*/
+.contenedor4{
+    text-align: center;
+    .contenedor4__imagen-1{
+        width:100%;
+    }
+}
+.calzado__box{
+    @extend %flexbox;
+    margin-left: 400px;
+    margin-right: 400px;
+    img{
+        width: 1200px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+    }
+}

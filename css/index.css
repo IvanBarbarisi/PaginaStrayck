@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@import url(../scss/components/productos.scss);
+@import url(../scss/index.scss);
+@import url(../scss/component/productosmujer.scss);
+@import url(../contacto.scss);
 /*Variables*/
 /*Extend*/
 .navebar ul, .cineasta__box, .productoswo-box, .productoswo-box2, .calzado__box, .gridco .productoswo-box2 {
@@ -125,19 +129,6 @@ body {
     color: white;
     margin-bottom: 20px; }
 
-/*index html seccion productos hombre*/
-.container {
-  margin-top: 1px;
-  margin-bottom: 1px;
-  border: 1px solid  black;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
-h5 {
-  text-decoration: none;
-  font-size: 20px;
-  color: black; }
-
 /*index html seccion productos mujer*/
 .tituloproductos {
   margin-top: 20px;
@@ -176,10 +167,11 @@ h5 {
 
 .contenedor2 {
   display: grid;
-  grid-template-columns: auto auto auto; }
+  grid-template-columns: auto auto auto;
+  width: 800px; }
 
 .video-1 iframe {
-  width: 200px; }
+  width: 800px; }
 
 .titulo-header {
   color: black;

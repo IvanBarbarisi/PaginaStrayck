@@ -1,0 +1,40 @@
+/*ubicacion html */
+.gridco {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main main ';
+    grid-gap: 5px;
+    background-color: map-get( $colores-maps, color-background );
+    padding: 5px;
+    .gridco__item1 {
+        grid-area: header; 
+    }
+    .gridco__item2 {
+        grid-area: menu; 
+        p{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 12px;
+        }
+        span{
+            font-weight: bold;
+        }
+    }
+    .gridco__item3 { 
+        grid-area: main; 
+    }
+    div {
+        background-color: white;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    .productoswo-box2{
+        @extend %flexbox;
+    }
+    .card{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+}
