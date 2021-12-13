@@ -1,25 +1,19 @@
 @charset "UTF-8";
-@import url(../scss/components/productos.scss);
-@import url(../scss/index.scss);
-@import url(../scss/component/productosmujer.scss);
-@import url(../contacto.scss);
 /*Variables*/
-/*Extend*/
-.navebar ul, .cineasta__box, .productoswo-box, .productoswo-box2, .calzado__box, .gridco .productoswo-box2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap; }
+/*seccion productos hombre*/
+.container {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 1px solid  black;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+h5 {
+  text-decoration: none;
+  font-size: 20px;
+  color: black; }
 
 /*Mapas*/
-* {
-  padding: 0;
-  margin: 0; }
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffff; }
-
 /*index html seccion principal*/
 .navebar {
   background-color: black;
@@ -165,14 +159,6 @@ body {
   transform: scale(1.05);
   transition: 0.5s; }
 
-.contenedor2 {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  width: 800px; }
-
-.video-1 iframe {
-  width: 800px; }
-
 .titulo-header {
   color: black;
   text-align: center; }
@@ -203,6 +189,83 @@ body {
     .calzado__box p span {
       font-weight: bold;
       font-size: 25px; }
+
+/*index html seccion productos mujer*/
+.tituloproductos {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; }
+
+.productoswo-box {
+  margin-left: 400px;
+  margin-right: 400px; }
+
+.card {
+  margin-top: 40px;
+  margin-left: 20px; }
+
+.imagen-2 img {
+  width: 400px;
+  height: 520px;
+  margin-top: 20px;
+  display: block; }
+
+.btn-compra {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px; }
+
+.btn-compra a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; }
+
+.btn-compra:hover {
+  transform: scale(1.05);
+  transition: 0.5s; }
+
+.titulo-header {
+  color: black;
+  text-align: center; }
+
+.imagen-cultura img {
+  text-align: center;
+  width: 560px;
+  height: 580px;
+  padding-left: 20px; }
+
+.imagen-cultura {
+  text-align: center; }
+
+/*ubicacion html */
+.gridco {
+  display: grid;
+  grid-template-areas: 'header header header header header header' 'menu main main main main main ';
+  grid-gap: 5px;
+  background-color: black;
+  padding: 5px; }
+  .gridco .gridco__item1 {
+    grid-area: header; }
+  .gridco .gridco__item2 {
+    grid-area: menu; }
+    .gridco .gridco__item2 p {
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 12px; }
+    .gridco .gridco__item2 span {
+      font-weight: bold; }
+  .gridco .gridco__item3 {
+    grid-area: main; }
+  .gridco div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px; }
+  .gridco .card {
+    margin-top: 40px;
+    margin-left: 20px; }
 
 /*contacto html formulario*/
 .contacto {
@@ -272,33 +335,22 @@ body {
       transform: scale(1.05);
       transition: 0.5s; }
 
-/*ubicaion html */
-.gridco {
-  display: grid;
-  grid-template-areas: 'header header header header header header' 'menu main main main main main ';
-  grid-gap: 5px;
-  background-color: black;
-  padding: 5px; }
-  .gridco .gridco__item1 {
-    grid-area: header; }
-  .gridco .gridco__item2 {
-    grid-area: menu; }
-    .gridco .gridco__item2 p {
-      font-size: 30px;
-      font-family: Arial, Helvetica, sans-serif;
-      margin-top: 12px; }
-    .gridco .gridco__item2 span {
-      font-weight: bold; }
-  .gridco .gridco__item3 {
-    grid-area: main; }
-  .gridco div {
-    background-color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px; }
-  .gridco .card {
-    margin-top: 40px;
-    margin-left: 20px; }
+/*Variables*/
+/*Extend*/
+.navebar ul, .cineasta__box, .productoswo-box, .productoswo-box2, .calzado__box, .gridco .productoswo-box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/*Mapas*/
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffff; }
 
 /*FOOTER*/
 .footer__box {
@@ -343,6 +395,11 @@ body {
   .productoswo-box {
     margin-left: 120px;
     margin-right: 120px; }
+  .gridco__item3 iframe {
+    width: 100% !important;
+    height: auto !important; }
+  .card img {
+    width: 350px; }
   .contacto__form {
     margin-left: 50px !important;
     margin-right: 50px !important; }
@@ -379,6 +436,11 @@ body {
   .productoswo-box {
     margin-left: 2px;
     margin-right: 2px; }
+  .gridco__item3 iframe {
+    width: 100% !important;
+    height: auto !important; }
+  .card img {
+    width: 10px; }
   .contacto__form {
     margin-left: 20px !important;
     margin-right: 20px !important; }

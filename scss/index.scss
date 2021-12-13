@@ -1,4 +1,10 @@
 
+/*Mapas*/
+$colores-maps:(
+    color-background:  black
+);
+
+
 /*index html seccion principal*/
 .navebar{
     background-color: map-get( $colores-maps, color-background );
